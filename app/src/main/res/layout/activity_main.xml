@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.haji.examples2.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/btn_frag_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="frag" />
+        <Button
+            android:id="@+id/btn_services_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="services" />
+        <Button
+            android:id="@+id/btn_3_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tom" />
+        <Button
+            android:id="@+id/btn_4_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tom" />
+        <Button
+            android:id="@+id/btn_5_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tom" />
+        <Button
+            android:id="@+id/btn_6_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tom" />
+        <Button
+            android:id="@+id/btn_7_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="tom" />
+    </LinearLayout>
+
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="52dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginRight="36dp"
+        android:clickable="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@android:drawable/ic_media_play" />
+
+</android.support.constraint.ConstraintLayout>

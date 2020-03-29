@@ -1,0 +1,40 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.haji.myapplication_test2.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="1"
+        android:title="Settings" />
+
+    <item
+        android:id="@+id/tom1"
+        android:title="tom"
+        android:orderInCategory="2"/>
+    <item
+        android:id="@+id/tom2"
+        android:title="tom"
+        android:orderInCategory="3"/>
+    <item
+        android:id="@+id/tom3"
+        android:title="tom"
+        android:orderInCategory="4"/>
+    <item
+        android:id="@+id/tom4"
+        android:title="tom"
+        android:orderInCategory="5"/>
+    <item
+        android:id="@+id/tom5"
+        android:title="tom"
+        android:orderInCategory="6"/>
+    <item
+        android:id="@+id/tom6"
+        android:title="tom"
+        android:orderInCategory="7"/>
+    <item
+        android:id="@+id/tom7"
+        android:title="tom"
+        android:orderInCategory="8"/>
+
+</menu>
